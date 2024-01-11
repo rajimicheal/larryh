@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hairstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="firstpage">
+        <h1 class="header">Hairstyles</h1> <br>
+        <ol>
+            <li style="color: white; margin-bottom: -10px;">1. Dread locks</li>
+            <li style="color: white; margin-bottom: -10px;">2. Mohawk</li>
+            <li style="color: white; margin-bottom: -10px;">3. Round Cut</li>
+            <li style="color: white; margin-bottom: -10px;">4. Afro Cut</li>
+            <li style="color: white; margin-bottom: -10px;">5. Three layers</li>
+            <li style="color: white; margin-bottom: -10px;">6. Skin Cut</li>
+            <li style="color: white; margin-bottom: -10px;">7. Skinfade</li>
+            <li style="color: white; margin-bottom: -10px;">8.Anitabecker</li>
+            <li style="color: white; margin-bottom: -10px;">9. Low Cut</li>
+        </ol>
+        <div class="menu"  id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hairstyle.html">Hairstyles</a></li>
+            </ul>
+        </div>
+       <img src="3917762.png" alt="" width="30px" height="30px" class="menubtn" id="menubtn" onclick="showmenu()">
+        <img src="9403346.png" alt="" width="30px" height="30px" class="menubtnc" id="menubtnclose" onclick="hidemenu()">
+    </section>
+    <script>
+        menu = document.getElementsById("menu");
+        menubtn = document.getElementById("menubtn");
+        menubtnclose = document.getElementById("menubtnclose");
+        function showmenu() {
+            menu.style.display ="block";
+            menubtn.style.display ="none";
+            menubtnclose.style.display ="block";
+        }
+        function hidemenu() {
+            menu.style.display ="none";
+            menubtn.style.display ="block";
+            menubtnclose.style.display ="none";
+            menubtn.style.display ="block";
+        }
+    </script>  
+</body>
+</html>

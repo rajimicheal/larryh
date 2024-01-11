@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.p{
+    float: left;
+    margin-right: 120px;
+}
+
+.firstpage{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(hairdresser-grooming-their-client_23-2149205916.avif);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0px;
+    position: relative;
+}
+.header{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+h3{
+    color: white;
+    margin-left: 500px;   
+}
+.menu{
+    display: flex;
+    justify-content: end;
+    margin-top: -460px;
+    width: 265px;
+    background-color: red;
+    max-height:600px;
+    margin-left: 1100px;
+    height: 591px;
+    transition: 0.5s;
+    display: none;
+}
+li{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.menubtn{
+    margin-left: 1300px;
+    margin-top: -450px;
+    position: fixed;
+}
+.menubtnc{
+    margin-left: 1300px;
+    margin-top: -580px;
+    position: relative;
+    display: none;
+}
+.header1{
+    font-size: 44px;
+    color: white;
+    margin-top: -40px;
+    text-align: center;
+}
+a{
+    color: #fff;
+    display: inline;
+}
+@media screen and  (max-width:1280px) {
+    .menubtn{
+        margin-left: 1000px;
+        margin-top: -120px;
+        position: fixed;
+    }
+    .menu{
+        margin-left: 200px; 
+        margin-top: -170px;
+        height: 1500px;
+    }
+}
+@media screen and  (max-width:1223px) {
+    .menubtn{
+        margin-left: 800px;
+        margin-top: -120px;
+        position: fixed;
+    }
+    .menu{
+        margin-left: 200px; 
+        margin-top: -170px;
+        height: 1500px;
+    }
+}
+@media screen and  (max-width:820px) {
+    .menubtn{
+        margin-left: 100px;
+        margin-top: -170px;
+        position: fixed;
+    }
+    .header{
+        font-size: 59px;
+        color:white;   
+        margin-bottom: 30px;
+        font-family: cursive;
+    }
+    .header1{
+        font-size: 17px;
+        color: white;
+        margin-top: -40px;
+        text-align: center;
+        font-weight: lighter;
+    }
+}
